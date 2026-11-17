@@ -1,0 +1,41 @@
+# Local data and archives
+*.wav
+*.WAV
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+
+# Generated features, models, predictions and logs
+**/mfcc/
+**/fbank/
+**/exp/
+*.bin
+*.hmm
+*.log
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+.aws/
+.ssh/
+*.pem
+*.key
+credentials*.json
+token*.json
+.agents/
+.codex/
+
+# Python and editor files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+__MACOSX/
+.idea/
+.vscode/
+.zed/
